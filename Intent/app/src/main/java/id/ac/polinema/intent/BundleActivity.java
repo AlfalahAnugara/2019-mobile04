@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.EditText;
 
 public class BundleActivity extends AppCompatActivity {
+    private EditText usernameInput ;
+    private EditText nameInput ;
+    private EditText ageInput ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -19,16 +19,21 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void handelExit(View view) { finish();}
+    public void handleExit(View view) { finish();}
 
     public void handleImplicitIntent(View view) {
         Intent intent = new Intent(this, ImplicitIntentActivity.class) ;
         startActivity(intent) ;
     }
 
-    public void handelBundleIntent (View view){
+    public void handleBundleIntent (View view){
         Intent intent = new Intent (this, BundleActivity.class) ;
         startActivity(intent);
+    }
+
+    public void handleParcel (View view) {
+        Intent intent = new Intent (this, profileParcelableActivity.class) ;
+        startActivity(intent) ;
     }
 }
 
