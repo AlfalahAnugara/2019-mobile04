@@ -35,6 +35,6 @@ public class BundleActivity extends AppCompatActivity {
         intent.putExtra(NAME_KEY,name) ;
         intent.putExtra(AGE_KEY,age) ;
 
-        startActivity(intent)
+        startActivity(intent) ;
     }
 }
