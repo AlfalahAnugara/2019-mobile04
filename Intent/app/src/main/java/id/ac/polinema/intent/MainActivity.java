@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handleParcel (View view) {
-        Intent intent = new Intent (this, profileParcelableActivity.class) ;
+        Intent intent = new Intent (this, ProfileParcelableActivity.class) ;
         startActivity(intent) ;
     }
 }
