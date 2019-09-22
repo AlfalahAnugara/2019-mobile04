@@ -23,7 +23,7 @@ public class ProfileParcelableActivity extends AppCompatActivity {
         // TODO: bind here
 
         Bundle extras = getIntent().getExtras();
-        
+
         if (extras != null) {
 
             User u = extras.getParcelable("user") ;
